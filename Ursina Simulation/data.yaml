@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['0', 'Headphones - v1 2025-09-18 12-55pm', 'Monitor', 'keyboard', 'pencil']
+
+roboflow:
+  workspace: niceiceguy-vngcm
+  project: 1-jrexh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/niceiceguy-vngcm/1-jrexh/dataset/1
